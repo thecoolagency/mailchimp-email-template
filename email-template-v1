@@ -1,0 +1,796 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>Responsive Template - Jonah @TheCoolAgency</title>
+    <style type="text/css">
+            .ReadMsgBody{
+                width:100%;
+                background-color:transparent;
+            }
+            .ExternalClass{
+                width:100%;
+                background-color:transparent;
+            }
+            .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
+                line-height:100%;
+            }
+            body{
+                -webkit-text-size-adjust:none;
+                -ms-text-size-adjust:none;
+                margin:0;
+                padding:0;
+            }
+            table{
+                border-spacing:0;
+            }
+            table td{
+                border-collapse:collapse;
+            }
+            img{
+                border-style:none;
+            }
+            .upperBodyColumns{
+                margin:10px 0px;
+                padding:10px 0px;
+                text-align:center;
+                border-top:0px solid #ffffff;
+                border-bottom:0px solid #ffffff;
+                border-left:0px solid #ffffff;
+                border-right:0px solid #ffffff;
+            }
+            .large-img{
+                padding-left:0px;
+                padding-right:0px;
+            }
+            .large-img img{
+                max-width:600px;
+                width:100%;
+                height:auto;
+            }
+            .half-img-right{
+                max-width:400px;
+                width:auto;
+                height:auto;
+                float:right;
+                padding-left:10px;
+                padding-right:0px;
+            }
+            .half-img-right img{
+                width:100%;
+                height:auto;
+            }
+            .half-img-left{
+                max-width:400px;
+                width:auto;
+                height:auto;
+                float:left;
+                padding-left:0px;
+                padding-right:10px;
+            }
+            .half-img-left img{
+                width:100%;
+                height:auto;
+            }
+            .3ColumnImg{
+                padding-left:0px;
+            }
+            .3ColumnImg img{
+                width:100%!important;
+                height:auto!important;
+            }
+            .columnContent{
+                float:right;
+            }
+        /*
+        @tab General
+        @section body style
+        */
+            body,#bodyTable{
+                /*@editable*/background-color:#fff;
+                /*@editable*/color:#808080;
+                /*@editable*/font-family:Helvetica,Arial,sans-serif;
+                /*@editable*/font-size:13px;
+                /*@editable*/font-style:normal;
+                /*@editable*/font-weight:400;
+                /*@editable*/line-height:20px;
+                /*@editable*/letter-spacing:0px;
+            }
+        /*
+        @tab General
+        @section inner body style
+        */
+            #bodyCell{
+                /*@editable*/background-color:#fff;
+                /*@editable*/border-top:0px solid #ffffff;
+                /*@editable*/border-bottom:0px solid #ffffff;
+                /*@editable*/border-left:0px solid #ffffff;
+                /*@editable*/border-right:0px solid #ffffff;
+            }
+        /*
+        @tab General
+        @section heading 1
+        @style H1
+        */
+            h1{
+                /*@editable*/color:#202020!important;
+                display:block;
+                /*@editable*/font-family:Helvetica,Arial,sans-serif;
+                /*@editable*/font-size:26px!important;
+                /*@editable*/font-style:normal!important;
+                /*@editable*/font-weight:700!important;
+                /*@editable*/line-height:26px!important;
+                /*@editable*/text-transform:uppercase!important;
+                /*@editable*/letter-spacing:5px!important;
+                margin-top:0;
+                margin-right:0;
+                margin-bottom:10px;
+                margin-left:0;
+                /*@editable*/text-align:left;
+            }
+        /*
+        @tab General
+        @section heading 2
+        @style H2
+        */
+            h2{
+                /*@editable*/color:#202020!important;
+                display:block;
+                /*@editable*/font-family:Helvetica,Arial,sans-serif;
+                /*@editable*/font-size:20px!important;
+                /*@editable*/font-style:normal!important;
+                /*@editable*/font-weight:200!important;
+                /*@editable*/line-height:20px!important;
+                /*@editable*/letter-spacing:3px!important;
+                /*@editable*/text-transform:uppercase!important;
+                margin-top:0;
+                margin-right:0;
+                margin-bottom:10px;
+                margin-left:0;
+            }
+        /*
+        @tab General
+        @section heading 3
+        @style H3
+        */
+            h3{
+                /*@editable*/color:#95A7A5!important;
+                display:block;
+                /*@editable*/font-family:Helvetica,Arial,sans-serif;
+                /*@editable*/font-size:18px!important;
+                /*@editable*/font-style:normal!important;
+                /*@editable*/font-weight:200!important;
+                /*@editable*/line-height:14px!important;
+                /*@editable*/letter-spacing:1px!important;
+                /*@editable*/text-transform:none!important;
+                margin-top:0;
+                margin-right:0;
+                margin-bottom:10px;
+                margin-left:0;
+            }
+        /*
+        @tab General
+        @section heading 4
+        @style H4
+        */
+            h4{
+                /*@editable*/color:#808080 !important;
+                display:block;
+                /*@editable*/font-family:Helvetica,Arial,sans-serif;
+                /*@editable*/font-size:14px;
+                /*@editable*/font-style:normal;
+                /*@editable*/font-weight:400;
+                /*@editable*/line-height:14px;
+                /*@editable*/letter-spacing:1px;
+                /*@editable*/text-transform:uppercase;
+                margin-top:0;
+                margin-right:0;
+                margin-bottom:10px;
+                margin-left:0;
+                /*@editable*/text-align:left;
+            }
+        /*
+        @tab General
+        @section links
+        */
+            a{
+                /*@editable*/color:#7FA39F!important;
+                /*@editable*/font-size:1em;
+                /*@editable*/font-style:normal;
+                /*@editable*/text-decoration:underline;
+                /*@editable*/font-weight:400;
+            }
+        /*
+        @tab Header
+        @section picture 1
+        */
+            #header-img-1{
+                /*@editable*/margin-top:0px;
+                /*@editable*/margin-bottom:0px;
+                /*@editable*/text-align:center;
+                /*@editable*/background-color:#fff;
+                /*@editable*/border-top:0px solid #ffffff;
+                /*@editable*/border-bottom:0px solid #ffffff;
+                /*@editable*/border-left:0px solid #ffffff;
+                /*@editable*/border-right:0px solid #ffffff;
+            }
+        /*
+        @tab Header
+        @section picture 2
+        */
+            #header-img-2{
+                /*@editable*/margin-top:0px;
+                /*@editable*/margin-bottom:15px;
+                /*@editable*/text-align:center;
+                /*@editable*/background-color:#fff;
+                /*@editable*/border-top:0px solid #ffffff;
+                /*@editable*/border-bottom:0px solid #ffffff;
+                /*@editable*/border-left:0px solid #ffffff;
+                /*@editable*/border-right:0px solid #ffffff;
+            }
+        /*
+        @tab upperBody
+        @section Intro Content
+        */
+            .upperBody{
+                /*@editable*/background-color:#fff;
+                /*@editable*/border-top:0px solid #ffffff;
+                /*@editable*/border-bottom:0px solid #ffffff;
+                /*@editable*/border-left:0px solid #ffffff;
+                /*@editable*/border-right:0px solid #ffffff;
+                /*@editable*/text-align:left;
+                /*@editable*/color:#808080!important;
+                /*@editable*/font-family:Helvetica,Arial,sans-serif;
+                /*@editable*/font-weight:400;
+                /*@editable*/font-size:14px;
+                /*@editable*/line-height:14px;
+                /*@editable*/letter-spacing:0px;
+                /*@editable*/padding-top:10px;
+                /*@editable*/padding-bottom:10px;
+                /*@editable*/padding-left:20px;
+                /*@editable*/padding-right:20px;
+            }
+        /*
+        @tab Featured Content
+        @section Content
+        */
+            .upperBodyColumns{
+                /*@editable*/background-color:#fff;
+                /*@editable*/border-top:0px solid #ffffff;
+                /*@editable*/border-bottom:0px solid #ffffff;
+                /*@editable*/border-left:0px solid #ffffff;
+                /*@editable*/border-right:0px solid #ffffff;
+            }
+        /*
+        @tab Featured Content
+        @section Featured Image
+        */
+            .half-image{
+                /*@editable*/padding-top:0px;
+                /*@editable*/padding-bottom:0px;
+                /*@editable*/padding-left:0px;
+                /*@editable*/padding-right:0px;
+            }
+        /*
+        @tab Featured Content
+        @section Featured Text
+        */
+            .featuredContent{
+                /*@editable*/color:#808080!important;
+                /*@editable*/font-family:Helvetica,Arial,sans-serif;
+                /*@editable*/font-weight:400;
+                /*@editable*/font-size:14px;
+                /*@editable*/line-height:16px;
+                /*@editable*/letter-spacing:0px;
+                /*@editable*/padding-top:0px;
+                /*@editable*/padding-bottom:0px;
+                /*@editable*/padding-left:0px;
+                /*@editable*/padding-right:0px;
+            }
+        /*
+        @tab Middle
+        @section Image
+        */
+            #middle-img{
+                /*@editable*/background-color:#fff;
+                /*@editable*/margin-top:0px;
+                /*@editable*/margin-bottom:10px;
+                /*@editable*/text-align:center;
+                /*@editable*/border-top:0px solid #ffffff;
+                /*@editable*/border-bottom:0px solid #ffffff;
+                /*@editable*/border-left:0px solid #ffffff;
+                /*@editable*/border-right:0px solid #ffffff;
+            }
+        /*
+        @tab Middle
+        @section Text
+        */
+            #middle-text{
+                /*@editable*/background-color:#fff;
+                /*@editable*/color:#808080!important;
+                /*@editable*/font-family:Helvetica,Arial,sans-serif;
+                /*@editable*/font-weight:400;
+                /*@editable*/font-size:14px;
+                /*@editable*/line-height:16px;
+                /*@editable*/letter-spacing:0px;
+                /*@editable*/padding-top:20px;
+                /*@editable*/padding-bottom:20px;
+                /*@editable*/padding-left:0px;
+                /*@editable*/padding-right:0px;
+            }
+        /*
+        @tab Column
+        @section Image 3 column
+        */
+            .col-3-img{
+                /*@editable*/padding-top:0px!important;
+                /*@editable*/padding-bottom:15px!important;
+            }
+        /*
+        @tab Column
+        @section Text
+        */
+            .ColumnContent{
+                /*@editable*/padding-bottom:30px;
+                /*@editable*/color:#808080!important;
+                /*@editable*/font-family:Helvetica,Arial,sans-serif;
+                /*@editable*/font-weight:400;
+                /*@editable*/font-size:14px;
+                /*@editable*/line-height:16px;
+                /*@editable*/letter-spacing:0px;
+            }
+        /*
+        @tab Body
+        @section Style
+        */
+            .bodyMainContent{
+                /*@editable*/background-color:#fff;
+                /*@editable*/padding-top:0px;
+                /*@editable*/padding-bottom:0px;
+                /*@editable*/border-top:0px solid #ffffff;
+                /*@editable*/border-bottom:0px solid #ffffff;
+                /*@editable*/border-left:0px solid #ffffff;
+                /*@editable*/border-right:0px solid #ffffff;
+                /*@editable*/color:#808080!important;
+                /*@editable*/font-family:Helvetica,Arial,sans-serif;
+                /*@editable*/font-weight:400;
+                /*@editable*/font-size:14px;
+                /*@editable*/line-height:16px;
+                /*@editable*/letter-spacing:0px;
+            }
+        /*
+        @tab Footer
+        @section picture 2
+        */
+            #footerImage{
+                /*@editable*/margin-top:0px;
+                /*@editable*/margin-bottom:0px;
+                /*@editable*/background-color:#fff;
+                /*@editable*/text-align:center;
+                /*@editable*/border-top:0px solid #ffffff;
+                /*@editable*/border-bottom:0px solid #ffffff;
+                /*@editable*/border-left:0px solid #ffffff;
+                /*@editable*/border-right:0px solid #ffffff;
+            }
+        /*
+        @tab Footer
+        @section Style
+        */
+            #footerBlock{
+                /*@editable*/background-color:#fff;
+                /*@editable*/padding-top:0px;
+                /*@editable*/padding-bottom:0px;
+                /*@editable*/border-top:0px solid #ffffff;
+                /*@editable*/border-bottom:0px solid #ffffff;
+                /*@editable*/border-left:0px solid #ffffff;
+                /*@editable*/border-right:0px solid #ffffff;
+                /*@editable*/color:#808080!important;
+                /*@editable*/font-family:Verdana,Arial,sans-serif;
+                /*@editable*/font-weight:400;
+                /*@editable*/font-size:10px;
+                /*@editable*/line-height:14px;
+                /*@editable*/letter-spacing:1px;
+            }
+        @media screen and (max-width:600px){
+            table[class=container]{
+                width:95% !important;
+            }
+
+    }   @media screen and (max-width:600px){
+            .featuredContent{
+                max-width:100%!important;
+                clear:both;
+            }
+
+    }   @media screen and (max-width:600px){
+            .half-img-right{
+                float:none!important;
+                max-width:100%!important;
+            }
+
+    }   @media screen and (max-width:600px){
+            .half-img-right img{
+                width:auto!important;
+            }
+
+    }   @media screen and (max-width:600px){
+            .half-img-left{
+                float:none!important;
+                max-width:100%!important;
+            }
+
+    }   @media screen and (max-width:600px){
+            .half-img-left img{
+                width:auto!important;
+            }
+
+    }   @media screen and (max-width:600px){
+            .tdAlighCenter{
+                text-align:center!important;
+            }
+
+    }   @media screen and (max-width:600px){
+            .tdAlignRight{
+                text-align:right!important;
+            }
+
+    }   @media screen and (max-width:600px){
+            .columnContent{
+                float:none!important;
+            }
+
+    }   @media screen and (max-width:480px){
+            td[class=container-padding]{
+                padding-left:12px !important;
+                padding-right:12px !important;
+            }
+
+    }   @media screen and (max-width:480px){
+            .half-img img{
+                max-width:200px!important;
+                width:100%;
+                height:auto!important;
+            }
+
+    }   @media only screen and (max-width :600px){
+            td[class=force-col]{
+                display:block;
+                padding-right:0 !important;
+            }
+
+    }   @media only screen and (max-width :600px){
+            table[class=col-3]{
+                float:none !important;
+                width:100% !important;
+                margin-bottom:12px;
+                padding-bottom:12px;
+                border-bottom:1px solid #eee;
+            }
+
+    }   @media only screen and (max-width :600px){
+            table[id=last-col-3]{
+                border-bottom:none !important;
+                margin-bottom:0;
+            }
+
+    }   @media only screen and (max-width :600px){
+            img[class=col-3-img]{
+                margin-left:12px;
+                max-width:130px!important;
+            }
+
+    }   @media only screen and (max-width :600px){
+            table[class=col-2]{
+                float:none !important;
+                width:100% !important;
+                margin-bottom:12px;
+                padding-bottom:12px;
+                border-bottom:1px solid #eee;
+            }
+
+    }   @media only screen and (max-width :600px){
+            table[id=last-col-2]{
+                border-bottom:none !important;
+                margin-bottom:0;
+            }
+
+    }   @media only screen and (max-width :600px){
+            img[class=col-2-img]{
+                margin-left:12px;
+                max-width:130px!important;
+            }
+
+    }</style>
+</head>
+
+<body style="margin:0;padding:10px 0;" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><br>
+<table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" id="bodyTable">
+  <tr>
+    <td align="center" valign="top">
+      <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" id="bodyCell">
+        <tr mc:hideable>
+          <td class="container-padding" align="center">
+            <div class="large-img" id="header-img-1">
+                <div mc:edit="viewin">
+                    <a href="*|ARCHIVE|*">view in browser</a>
+                </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr mc:repeatable>
+          <td class="container-padding" align="center">
+            <div class="large-img" id="header-img-1">
+                <img src="http://www.thecoolagency.com/img-misc/header.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" mc:allowdesigner="" mc:allowtext="" mc:edit="header_image">
+            </div>
+          </td>
+        </tr>
+
+        <tr mc:repeatable>
+          <td class="container-padding" align="center">
+            <div class="large-img" id="header-img-2">
+                <img src="http://www.thecoolagency.com/img-misc/full-600.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" mc:hideable mc:allowdesigner="" mc:allowtext="" mc:edit="second_header_image">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="container-padding">
+
+            <table border="0" cellpadding="0" cellspacing="0" class="columns-container" mc:repeatable="column_three_two" mc:variant="Image Right">
+              <tr>
+                <td class="force-col" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" width="355" align="left" class="col-2">
+                        <tr>
+                            <td align="left" valign="top" style="font-size:13px;line-height:20px;font-family:Arial, sans-serif;" class="tdAlignLeft">
+                            <div style="margin-top:0px;" class="featuredContent" mc:edit="left_text">
+                            <br>
+                            <br>
+                            <h3>FEATURED CONTENT</h3>
+                            <p>CUSTOMIZABLE WIDTH IN EDITOR</p>
+                            </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="force-col" style="padding-left:10px;" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" width="235" align="left" class="col-2">
+                    <tr>
+                        <td align="right" valign="top" style="font-size:13px;line-height:20px;font-family:Arial, sans-serif;" class="tdAlignLeft">
+                            <div class="2ColumnImg" style="max-width:235px;float:left;">
+                            <img src="http://www.thecoolagency.com/img-misc/aside-235.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" mc:allowdesigner="" mc:allowtext="" mc:edit="right_image"></div>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+              </tr>
+            </table>
+            <div>&nbsp;</div>
+
+            <table border="0" cellpadding="0" cellspacing="0" class="columns-container" mc:repeatable="column_three_two" mc:variant="Image Left">
+              <tr>
+                <td class="force-col" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" width="235" align="left" class="col-2">
+                        <tr>
+                            <td align="center" valign="top" style="font-size:13px;line-height:20px;font-family:Arial, sans-serif;" class="tdAlignRight">
+                              <div class="2ColumnImg" style="max-width:235px;float:right;">
+                                <img src="http://www.thecoolagency.com/img-misc/aside-235.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" mc:allowdesigner="" mc:allowtext="" mc:edit="left_image"></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="force-col" style="padding-left:10px;" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" width="355" align="left" class="col-2">
+                    <tr>
+                        <td align="right" valign="top" style="font-size:13px;line-height:20px;font-family:Arial, sans-serif;" class="tdAlignRight">
+                            <div style="margin-top:0px;" class="featuredContent" mc:edit="right_text">
+                            <br>
+                            <br>
+                            <h3>FEATURED CONTENT</h3>
+                            <p>CUSTOMIZABLE WIDTH IN EDITOR</p>
+                            </div>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+              </tr>
+            </table>
+            <div>&nbsp;</div>
+
+            <table border="0" cellpadding="0" cellspacing="0" class="columns-container" mc:repeatable="column_three_two" mc:variant="3 Columns">
+              <tr>
+                <td class="force-col" style="padding-right:6px;" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" width="196" align="left" class="col-3">
+                    <tr>
+                        <td align="center" valign="top" class="tdAlignRight">
+                          <div class="3ColumnImg" style="max-width:196px;float:right;text-align:center;">
+                            <img src="http://www.thecoolagency.com/img-misc/column-196.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" class="col-3-img" mc:edit="3columnspicture1">
+                          </div>
+                            <div class="ColumnContent" mc:edit="3columncontent1">
+                                    <h3>3 Column</h3>
+                                    <p>WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY</p>
+                                <br>
+                            </div>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+                <td class="force-col" style="padding-right:6px;" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" width="196" align="left" class="col-3">
+                    <tr>
+                        <td align="center" valign="top" class="tdAlignRight">
+                          <div class="3ColumnImg" style="max-width:196px;float:right;text-align:center;">
+                            <img src="http://www.thecoolagency.com/img-misc/column-196.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" class="col-3-img" mc:edit="3columnspicture2">
+                          </div>
+                            <div class="ColumnContent" mc:edit="3columncontent2">
+                                    <h3>3 Column</h3>
+                                    <p>WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY</p>
+                                <br>
+                            </div>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+                <td class="force-col" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" width="196" align="right" class="col-3" id="last-col-3">
+                        <tr>
+                            <td align="center" valign="top" class="tdAlignRight">
+                              <div class="3ColumnImg" style="max-width:196px;float:right;text-align:center;">
+                                <img src="http://www.thecoolagency.com/img-misc/column-196.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" class="col-3-img" mc:edit="3columnspicture3">
+                              </div>
+                                <div class="ColumnContent" mc:edit="3columncontent3">
+                                    <h3>3 Column</h3>
+                                    <p>WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY</p>
+                                    <br>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+              </tr>
+            </table>
+
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="columns-container" mc:repeatable="column_three_two" mc:variant="3 Columns no text">
+              <tr>
+                <td class="force-col" style="padding-right:6px;" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" width="196" align="left" class="col-3">
+                    <tr>
+                        <td align="center" valign="top">
+                          <div class="3ColumnImg" style="max-width:196px;text-align:center;">
+                            <img src="http://www.thecoolagency.com/img-misc/column-196.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" class="col-3-img" mc:edit="3columnspicture13">
+                          </div>
+                            <div class="ColumnContent" mc:edit="3columncontent12">
+                                    <h3>3 Column</h3>
+                            </div>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+                <td class="force-col" style="padding-right:6px;" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" width="196" align="left" class="col-3">
+                    <tr>
+                        <td align="center" valign="top">
+                          <div class="3ColumnImg" style="max-width:196px;text-align:center;">
+                            <img src="http://www.thecoolagency.com/img-misc/column-196.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" class="col-3-img" mc:edit="3columnspicture23">
+                          </div>
+                            <div class="ColumnContent" mc:edit="3columncontent22">
+                                    <h3>3 Column</h3>
+                            </div>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+                <td class="force-col" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" width="196" align="right" class="col-3" id="last-col-3">
+                        <tr>
+                            <td align="center" valign="top">
+                              <div class="3ColumnImg" style="max-width:196px;text-align:center;">
+                                <img src="http://www.thecoolagency.com/img-misc/column-196.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" class="col-3-img" mc:edit="3columnspicture33">
+                              </div>
+                                <div class="ColumnContent" mc:edit="3columncontent32">
+                                    <h3>3 Column</h3>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+              </tr>
+            </table>
+
+            <table border="0" cellpadding="0" cellspacing="0" class="columns-container" mc:repeatable="column_three_two" mc:variant="2 Columns">
+              <tr>
+                <td class="force-col" style="padding-right:10px;" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" width="295" align="left" class="col-2">
+                    <tr>
+                        <td align="center" valign="top" style="font-size:13px;line-height:20px;font-family:Arial, sans-serif;" class="tdAlignRight">
+                          <div class="2ColumnImg" style="max-width:295px;float:right;">
+                            <img src="http://www.thecoolagency.com/img-misc/column-295.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" style="vertical-align:top;padding-bottom:12px;" class="col-2-img" mc:edit="2columnspicture1"></div>
+                            <div style="margin-top:10px;" class="ColumnContent" mc:edit="2columncontent1">
+                            <h3>2 Column</h3>
+                            <p>WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY</p>
+                            <br>
+                            </div>
+                        </td>
+                    </tr>
+                    </table>
+
+                </td>
+                <td class="force-col" valign="top">
+                    <table border="0" cellspacing="0" cellpadding="0" width="295" align="left" class="col-2">
+                        <tr>
+                            <td align="center" valign="top" style="font-size:13px;line-height:20px;font-family:Arial, sans-serif;" class="tdAlignRight">
+                              <div class="2ColumnImg" style="max-width:295px;float:right;">
+                                <img src="http://www.thecoolagency.com/img-misc/column-295.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" style="vertical-align:top;padding-bottom:12px;" class="col-2-img" mc:edit="2columnspicture2"></div>
+                                <div style="margin-top:10px;" class="ColumnContent" mc:edit="2columncontent2">
+                                <h3>2 Column</h3>
+                                <p>WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY WITH CONTENT TEXT ONLY</p>
+                                <br>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" mc:repeatable="column_three_two" mc:variant="One column">
+              <tr>
+                      <td align="center">
+                        <div class="large-img">
+                            <img src="http://www.thecoolagency.com/img-misc/full-600.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" mc:allowdesigner="" mc:allowtext="" mc:edit="wideblock">
+                        </div>
+                      </td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+        <tr mc:hideable>
+          <td class="container-padding  bodyMainContent" align="left" mc:edit="bodycontent">
+            <br>
+            <h3>Help</h3>
+            <br>
+
+            try to keep the same height for images on the same row
+            <br><br>
+
+            template contains:
+            <ul>
+                <li>featured content</li>
+                <li>2 columns</li>
+                <li>3 columns</li>
+            </ul>
+
+            responsive:
+            <ul>
+                <li>forcing container columns to (horizontal) blocks</li>
+                <li>unset paddings and alignment in inner tables</li>
+                <li>float image to the right</li>
+            </ul>
+            <br>
+
+            Jonah.
+
+          </td>
+        </tr>
+        <div>&nbsp;</div>
+        <tr mc:repeatable>
+          <td class="container-padding" align="center">
+            <div class="large-img" id="footerImage">
+                <img src="http://www.thecoolagency.com/img-misc/header.jpg" alt="Image Caption" border="0" hspace="0" vspace="0" mc:edit="prefooterimg">
+            </div>
+          </td>
+        </tr>
+        <tr mc:repeatable>
+          <td class="container-padding" id="footerBlock" align="left" mc:edit="footertext">
+          Copyright © 2014 TheCoolAgency.com All Rights Reserved.
+          </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+</body>
+</html>
